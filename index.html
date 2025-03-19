@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zenith Business Hub - Daily Updates</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Typing Animation -->
+  <div id="typingContainer">
+    <span id="typingText"></span>
+  </div>
+
+  <!-- Main Content (Hidden initially) -->
+  <div id="mainContent" style="display: none">
+    <!-- Header Section -->
+    <header class="header">
+      <h1>📈 <span>Zenith Business Hub</span> - Daily Updates</h1>
+    </header>
+
+    <!-- Search Section -->
+    <div class="search-container">
+      <input
+        type="text"
+        id="searchBox"
+        placeholder="Search business topics..."
+      />
+      <button onclick="filterNews()">🔍 Search</button>
+    </div>
+
+    <!-- Notification Area -->
+    <div id="notification" class="notification"></div>
+
+    <!-- Search Results Section -->
+    <div id="searchResults" class="news-container"></div>
+
+    <!-- Latest News Section -->
+    <h2 class="section-title">📢 Latest Business News</h2>
+    <div id="latestNewsContainer" class="news-container"></div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <p>© 2025 Zenith Business Hub. All Rights Reserved.</p>
+    </footer>
+  </div>
+
+  <!-- JS Script -->
+  <script src="script.js"></script>
+</body>
+</html>
